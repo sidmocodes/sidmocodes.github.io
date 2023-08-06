@@ -1,0 +1,34 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+/* Navbar adjustments */
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav.ml-auto {
+    margin-right: 20px;
+}
+
+/* Centered headings */
+section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* Social icon styles */
+#social-links .fa {
+    color: #333;  /* Icon color */
+    transition: color 0.3s;  /* Smooth transition for hover effects */
+}
+
+#social-links a:hover .fa {
+    color: #007bff;  /* Icon hover color */
+}
+
+/* Optional: Footer styling */
+footer {
+    margin-top: 50px;
+}
