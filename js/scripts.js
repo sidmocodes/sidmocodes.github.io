@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Scroll to the target section with animation
             window.scrollTo({
-                top: targetPosition,
+                top: targetPosition-10,
                 behavior: 'smooth'
             });
         });
@@ -31,4 +31,16 @@ fetch('/api/blog')
             blogList.appendChild(blogItem);
         });
     });
+
+window.addEventListener('scroll', function() {
+    const heading = document.getElementById('projects-heading');
+    const top = heading.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    if (top < windowHeight / 2) {
+        heading.classList.add('bounce');
+    } else {
+        heading.classList.remove('bounce');
+    }
+});
 

@@ -1,8 +1,52 @@
+/* General Styles */
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
-    background: #f4f4f4;
+    background: linear-gradient(135deg, #f3ec78, #af4261);
+    color: #fff;
 }
+
+/* Custom Font for Headings */
+h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Animated Background */
+@keyframes animatedBackground {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 100%;
+    }
+}
+
+/* Crazy Background */
+body {
+    background: linear-gradient(270deg, #ffa726, #ff3d00, #ff6d00, #ff9100, #ff9800, #ffab00);
+    background-size: 1200% 1200%;
+    animation: animatedBackground 30s ease infinite;
+}
+
+/* Bouncing Animation */
+.bounce {
+    animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+
+/* Other styles remain the same or customized */
+
 
 .navbar-brand {
     font-weight: bold;
@@ -60,3 +104,4 @@ footer {
 .card-text {
     color: #777;
 }
+
