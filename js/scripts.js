@@ -20,3 +20,15 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+fetch('/api/blog')
+    .then(response => response.json())
+    .then(blogs => {
+        const blogList = document.getElementById('blog-list');
+        blogs.forEach(blog => {
+            const blogItem = document.createElement('li');
+            blogItem.textContent = blog.title;
+            blogList.appendChild(blogItem);
+        });
+    });
+

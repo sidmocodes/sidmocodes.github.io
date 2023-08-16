@@ -1,9 +1,9 @@
 body {
     font-family: 'Arial', sans-serif;
     line-height: 1.6;
+    background: #f4f4f4;
 }
 
-/* Navbar adjustments */
 .navbar-brand {
     font-weight: bold;
 }
@@ -15,20 +15,48 @@ body {
 /* Centered headings */
 section h2 {
     text-align: center;
-    margin-bottom: 30px;
+    margin: 40px 0;
+}
+
+/* Section padding adjustments */
+section {
+    padding: 100px 0;
 }
 
 /* Social icon styles */
+#social-links {
+    background: #f9f9f9;
+}
+
 #social-links .fa {
-    color: #333;  /* Icon color */
-    transition: color 0.3s;  /* Smooth transition for hover effects */
+    color: #333;
+    transition: color 0.3s;
 }
 
 #social-links a:hover .fa {
-    color: #007bff;  /* Icon hover color */
+    color: #007bff;
 }
 
-/* Optional: Footer styling */
+/* Footer styling */
 footer {
     margin-top: 50px;
+}
+
+/* Projects styling */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    border-radius: 10px 10px 0 0;
+    max-height: 300px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #777;
 }
