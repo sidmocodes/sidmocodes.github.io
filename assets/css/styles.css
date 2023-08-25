@@ -85,7 +85,7 @@ section {
 /* Social Media Links */
 #contact a {
     background: #000; /* Black background */
-    color: #005a8d;
+    color: #fff;
     text-decoration: none;
     display: inline-block;
     margin: 5px;
@@ -116,7 +116,7 @@ footer {
 
 /* Adding smooth transitions to navbar links */
 .navbar-nav a {
-    transition: color 0.3s;
+    transition: color 0.7s;
 }
 
 /* Hover effect for navbar links */
@@ -136,7 +136,7 @@ html {
 /* Hover effect for project cards */
 .col-md-4 .card:hover {
     transform: scale(1.05);
-    transition: transform 0.3s ease; /* Targeting transform specifically */
+    transition: transform 0.7s ease; /* Targeting transform specifically */
 }
 
 .col-md-4 .card:hover .card-body {
@@ -155,7 +155,7 @@ html {
 }
 
 #social-links a i {
-    transition: transform 0.3s ease; /* Smooth transition */
+    transition: transform 0.7s ease; /* Smooth transition */
 }
 
 #social-links a:hover i {
