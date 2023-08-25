@@ -2,31 +2,23 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background: #333333; /* Dark shade of black */
-    color: white; /* Body text color */
+    background: #000; /* Jet black background */
+    color: #fff; /* White text for better visibility on black background */
     margin: 0;
     padding: 0;
     font-weight: 300; /* Lighter weight for minimalistic look */
 }
 
 h1 {
-    color: purple; /* H1 text color */
+    color: purple;
 }
 
 h2 {
-    color: lightgreen; /* H2 text color */
-    border-bottom: 2px solid #005a8d;
-    font-family: 'Playfair Display', serif;
-    padding-bottom: 5px;
+    color: lightgreen;
 }
 
 h3 {
-    color: white; /* H3 text color */
-}
-
-h4, h5, h6 {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400; /* Slightly bolder for headings */
+    color: white;
 }
 
 a {
@@ -40,7 +32,7 @@ a:hover {
 
 /* Header Styles */
 header {
-    background: #005a8d;
+    background: #000; /* Jet black background */
     color: white;
     padding: 20px;
     text-align: center;
@@ -57,7 +49,7 @@ header p {
 
 /* Navigation Styles */
 nav {
-    background: #6C5B7B; /* Dark shade of lavender */
+    background: rebeccapurple; /* Dark shade of lavender */
     color: white;
     padding: 10px;
     text-align: center;
@@ -66,6 +58,12 @@ nav {
 /* Main Content Styles */
 main {
     padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid lightgreen;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 5px;
 }
 
 section {
@@ -115,8 +113,6 @@ footer {
     }
 }
 
-/* ... existing styles ... */
-
 /* Adding smooth transitions to navbar links */
 .navbar-nav a {
     transition: color 0.3s;
@@ -133,8 +129,7 @@ html {
 }
 
 .col-md-4 .card {
-    background: #333333; /* Black background for cards */
-    /* existing gradient can be removed or adjusted */
+    background: #000; /* Jet black background */
 }
 
 /* Hover effect for project cards */
@@ -161,4 +156,9 @@ html {
 
 #social-links a:hover i {
     transform: scale(1.2); /* Pop-out effect */
+}
+
+/* Jet black background for cards and contact section */
+.card, #contact {
+    background: #000;
 }
