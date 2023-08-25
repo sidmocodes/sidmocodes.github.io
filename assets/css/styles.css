@@ -2,14 +2,29 @@
 body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background: #f5f5f5;
-    color: #333;
+    background: #333333; /* Dark shade of black */
+    color: white; /* Body text color */
     margin: 0;
     padding: 0;
     font-weight: 300; /* Lighter weight for minimalistic look */
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1 {
+    color: purple; /* H1 text color */
+}
+
+h2 {
+    color: lightgreen; /* H2 text color */
+    border-bottom: 2px solid #005a8d;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 5px;
+}
+
+h3 {
+    color: white; /* H3 text color */
+}
+
+h4, h5, h6 {
     font-family: 'Roboto', sans-serif;
     font-weight: 400; /* Slightly bolder for headings */
 }
@@ -42,7 +57,7 @@ header p {
 
 /* Navigation Styles */
 nav {
-    background: #333;
+    background: #6C5B7B; /* Dark shade of lavender */
     color: white;
     padding: 10px;
     text-align: center;
@@ -51,12 +66,6 @@ nav {
 /* Main Content Styles */
 main {
     padding: 20px;
-}
-
-h2 {
-    border-bottom: 2px solid #005a8d;
-    font-family: 'Playfair Display', serif;
-    padding-bottom: 5px;
 }
 
 section {
@@ -124,7 +133,8 @@ html {
 }
 
 .col-md-4 .card {
-    background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 100%); /* White to light gray gradient */
+    background: #333333; /* Black background for cards */
+    /* existing gradient can be removed or adjusted */
 }
 
 /* Hover effect for project cards */
@@ -152,4 +162,3 @@ html {
 #social-links a:hover i {
     transform: scale(1.2); /* Pop-out effect */
 }
-
