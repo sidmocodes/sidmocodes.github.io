@@ -1,38 +1,34 @@
-document.addEventListener('DOMContentLoaded', function() {
-    // Get all the anchor links in the navigation
-    const navLinks = document.querySelectorAll('nav a');
-
-    navLinks.forEach(link => {
-        link.addEventListener('click', function(event) {
-            // Prevent the default anchor link behavior
-            event.preventDefault();
-
-            // Get the target section's top offset
-            const targetId = this.getAttribute('href');
-            const targetSection = document.querySelector(targetId);
-            const targetPosition = targetSection.offsetTop;
-
-            // Scroll to the target section with animation
-            window.scrollTo({
-                top: targetPosition - 10,
-                behavior: 'smooth' // Using smooth scrolling
-            });
+document.addEventListener("DOMContentLoaded", function() {
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            const target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
         });
     });
 
-    // ... existing code ...
+    // Project card hover effect
+    document.querySelectorAll('.card').forEach(card => {
+        card.addEventListener('mouseenter', function() {
+            this.style.transform = 'scale(1.05)';
+        });
+        card.addEventListener('mouseleave', function() {
+            this.style.transform = 'scale(1)';
+        });
+    });
 
-    window.addEventListener('scroll', function() {
-        const heading = document.getElementById('projects-heading');
-        const top = heading.getBoundingClientRect().top;
-        const windowHeight = window.innerHeight;
-
-        if (top < windowHeight / 2) {
-            heading.classList.add('bounce');
-        } else {
-            heading.classList.remove('bounce');
-        }
+    // Icon pop-out effect on hover
+    document.querySelectorAll('.fab').forEach(icon => {
+        icon.addEventListener('mouseenter', function() {
+            this.style.transform = 'scale(1.2)';
+        });
+        icon.addEventListener('mouseleave', function() {
+            this.style.transform = 'scale(1)';
+        });
     });
 });
 
-// ... existing code ...
+// Optional: Add additional JS logic as per your requirements
