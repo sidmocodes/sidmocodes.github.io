@@ -24,28 +24,27 @@
 
 <body>
 
-        <!-- Navigation Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container"> <!-- Added container to center the content -->
-            <a class="navbar-brand" href="#">Sid Moh</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav"> <!-- Added justify-content-end class -->
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#about">About Me</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#social-links">Contact</a>
-                    </li>
-                </ul>
-            </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">Sid Moh</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#about">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#social-links">Contact</a>
+                </li>
+            </ul>
         </div>
-    </nav>
+    </div>
+</nav>
 
     <!-- About Section -->
     <section id="about" class="py-5 my-5">
@@ -56,53 +55,49 @@
             </p>
         </div>
     </section>
-
-    <!-- Projects Section -->
-    <section id="projects" class="py-5 my-5">
-        <div class="container">
-            <h2 id="projects-heading">My Projects</h2>
-            <div class="row">
-                <div class="row gy-4">
-                <!-- Project 1 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="image1.jpg" class="card-img-top" alt="Project 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Net Funding Positions Reporting Application</h5>
-                            <p class="card-text">Used Big Data, JUnit, Scala and Orchestration tools to design and develop the front-to-back business logic (sourcing, transformation, reporting, logging, orchestration, operational readiness). Optimized the CI/CD pipeline by reducing the memory usage by 80% and reduced the deployment time from 20 minutes to 6 minutes.</p>
-                        </div>
+    
+<!-- Projects Section -->
+<section id="projects" class="py-5 my-5">
+    <div class="container">
+        <h2 id="projects-heading">My Projects</h2>
+        <!-- Project 1 -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <img src="image1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Net Funding Positions Reporting Application</h5>
+                        <p class="card-text">Used Big Data, JUnit, Scala and Orchestration tools to design and develop the front-to-back business logic (sourcing, transformation, reporting, logging, orchestration, operational readiness). Optimized the CI/CD pipeline by reducing the memory usage by 80% and reduced the deployment time from 20 minutes to 6 minutes.</p>
                     </div>
                 </div>
-                </div>
-                <div class="row gy-4">
-                <!-- Project 2 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="image2.jpg" class="card-img-top" alt="Project 2">
-                        <div class="card-body">
-                            <h5 class="card-title">Data Masking Solution for Swiss CID</h5>
-                            <p class="card-text">Developed the Java-based solution using Big Data Technologies to mask sensitive data in reports exposed to international (non-Swiss) stakeholders. Published the solution as a library and used for in several reporting tools. This tool helped other teams use the solution as a library to enhance security in their apps too.</p>
-                        </div>
-                    </div>
-                </div>
-                </div>
-
-                <div class="row gy-4">
-                <!-- Project 3 -->
-                <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="image2.jpg" class="card-img-top" alt="Project 3">
-                        <div class="card-body">
-                            <h5 class="card-title">Stock Portfolio Analyzer</h5>
-                            <p class="card-text">Implemented the core logic of a portfolio manager using abstract-factory pattern in Java and published it as a library. Refactored code with Adapter pattern to add support for multiple stock quote services and Dockerized the same to ensure prod stability. Used tools like Spring Boot to expose it as an API.</p>
-                        </div>
-                    </div>
-                </div>
-                </div>
-
             </div>
         </div>
-    </section>
+        <!-- Project 2 -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <img src="image2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Masking Solution for Swiss CID</h5>
+                        <p class="card-text">Developed the Java-based solution using Big Data Technologies to mask sensitive data in reports exposed to international (non-Swiss) stakeholders. Published the solution as a library and used for in several reporting tools. This tool helped other teams use the solution as a library to enhance security in their apps too.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Project 3 -->
+        <div class="row mb-4">
+            <div class="col-12">
+                <div class="card">
+                    <img src="image2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Stock Portfolio Analyzer</h5>
+                        <p class="card-text">Implemented the core logic of a portfolio manager using abstract-factory pattern in Java and published it as a library. Refactored code with Adapter pattern to add support for multiple stock quote services and Dockerized the same to ensure prod stability. Used tools like Spring Boot to expose it as an API.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Social Links Section -->
     <section id="social-links" class="py-5 my-5 text-center bg-light">
