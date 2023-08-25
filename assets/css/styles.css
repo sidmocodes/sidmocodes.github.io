@@ -115,8 +115,13 @@ footer {
 }
 
 /* Adding smooth transitions to navbar links */
-.navbar-nav a {
-    transition: color 0.7s;
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav.ml-auto {
+    margin-right: 20px;
 }
 
 /* Hover effect for navbar links */
