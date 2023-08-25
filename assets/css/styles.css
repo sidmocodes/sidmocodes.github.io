@@ -136,23 +136,18 @@ html {
 /* Hover effect for project cards */
 .col-md-4 .card:hover {
     transform: scale(1.05);
-    transition: transform 0.7s ease; /* Targeting transform specifically */
+    transition: transform 0.8s ease; /* Smooth transition for scaling */
 }
 
 .col-md-4 .card:hover .card-body {
-    background-color: #f5f5f5;
-    
+    background-color: #000; /* Jet Black Background */
 }
 
-.col-md-4 .card:hover .card-title {
-    color: #add8e6; /* Light blue color */
-
-}
-
+.col-md-4 .card:hover .card-title,
 .col-md-4 .card:hover .card-text {
     color: #add8e6; /* Light blue color */
-
 }
+
 
 #social-links a i {
     transition: transform 0.7s ease; /* Smooth transition */
