@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
     background: #000; /* Jet black background */
-    color: #333;
+    color: #fff; /* White text for better visibility on black background */
     margin: 0;
     padding: 0;
     font-weight: 300; /* Lighter weight for minimalistic look */
@@ -15,18 +15,24 @@ h1 {
 
 h2 {
     color: lightgreen;
-    border-bottom: 2px solid #005a8d;
-    font-family: 'Playfair Display', serif;
-    padding-bottom: 5px;
 }
 
 h3 {
     color: white;
 }
 
+a {
+    text-decoration: none;
+    color: #007bff; /* Uniform link color */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 /* Header Styles */
 header {
-    background: #005a8d;
+    background: #000; /* Jet black background */
     color: white;
     padding: 20px;
     text-align: center;
@@ -43,7 +49,7 @@ header p {
 
 /* Navigation Styles */
 nav {
-    background: #6a5acd; /* Dark shade of lavender */
+    background: rebeccapurple; /* Dark shade of lavender */
     color: white;
     padding: 10px;
     text-align: center;
@@ -52,6 +58,16 @@ nav {
 /* Main Content Styles */
 main {
     padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid lightgreen;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 5px;
+}
+
+section {
+    margin-bottom: 40px;
 }
 
 /* Skills List */
@@ -67,11 +83,8 @@ main {
 }
 
 /* Social Media Links */
-#contact {
-    background: #000; /* Black background */
-}
-
 #contact a {
+    background: #000; /* Black background */
     color: #005a8d;
     text-decoration: none;
     display: inline-block;
@@ -101,8 +114,6 @@ footer {
     }
 }
 
-/* ... existing styles ... */
-
 /* Adding smooth transitions to navbar links */
 .navbar-nav a {
     transition: color 0.3s;
@@ -129,12 +140,18 @@ html {
 }
 
 .col-md-4 .card:hover .card-body {
-    background-color: #000; /* Jet black background */
+    background-color: #f5f5f5;
+    
 }
 
-.col-md-4 .card:hover .card-title,
+.col-md-4 .card:hover .card-title {
+    color: #add8e6; /* Light blue color */
+
+}
+
 .col-md-4 .card:hover .card-text {
     color: #add8e6; /* Light blue color */
+
 }
 
 #social-links a i {
@@ -144,3 +161,41 @@ html {
 #social-links a:hover i {
     transform: scale(1.2); /* Pop-out effect */
 }
+
+/* Jet black background for cards and contact section */
+.card, #contact {
+    background: #000;
+}
+
+/* Sticky Navigation Bar */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+/* Smooth Fade In Effect */
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+/* Scroll to Top Button */
+#scrollToTop {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.col-md-4 .card:hover .card-title,
+.col-md-4 .card:hover .card-text {
+    color: #add8e6; /* Light blue color */
+}
+
