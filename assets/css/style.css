@@ -1,107 +1,155 @@
 /* General Styles */
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Roboto', sans-serif;
     line-height: 1.6;
-    background: linear-gradient(135deg, #f3ec78, #af4261);
-    color: #fff;
+    background: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    font-weight: 300; /* Lighter weight for minimalistic look */
 }
 
-/* Custom Font for Headings */
-h2 {
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400; /* Slightly bolder for headings */
+}
+
+a {
+    text-decoration: none;
+    color: #007bff; /* Uniform link color */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
+header {
+    background: #005a8d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
     font-family: 'Playfair Display', serif;
 }
 
-/* Animated Background */
-@keyframes animatedBackground {
-    from {
-        background-position: 0 0;
-    }
-    to {
-        background-position: 100% 100%;
-    }
+header p {
+    font-style: italic;
 }
 
-/* Crazy Background */
-body {
-    background: linear-gradient(270deg, #ffa726, #ff3d00, #ff6d00, #ff9100, #ff9800, #ffab00);
-    background-size: 1200% 1200%;
-    animation: animatedBackground 30s ease infinite;
-}
-
-/* Bouncing Animation */
-.bounce {
-    animation: bounce 2s infinite;
-}
-
-@keyframes bounce {
-    0%, 20%, 50%, 80%, 100% {
-        transform: translateY(0);
-    }
-    40% {
-        transform: translateY(-30px);
-    }
-    60% {
-        transform: translateY(-15px);
-    }
-}
-
-/* Other styles remain the same or customized */
-
-
-.navbar-brand {
-    font-weight: bold;
-}
-
-.navbar-nav.ml-auto {
-    margin-right: 20px;
-}
-
-/* Centered headings */
-section h2 {
+/* Navigation Styles */
+nav {
+    background: #333;
+    color: white;
+    padding: 10px;
     text-align: center;
-    margin: 40px 0;
 }
 
-/* Section padding adjustments */
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+h2 {
+    border-bottom: 2px solid #005a8d;
+    font-family: 'Playfair Display', serif;
+    padding-bottom: 5px;
+}
+
 section {
-    padding: 100px 0;
+    margin-bottom: 40px;
 }
 
-/* Social icon styles */
-#social-links {
-    background: #f9f9f9;
+/* Skills List */
+#skills ul {
+    list-style-type: none;
+    padding: 0;
 }
 
-#social-links .fa {
-    color: #333;
+#skills li {
+    background: #e0e0e0;
+    margin: 5px 0;
+    padding: 5px 10px;
+}
+
+/* Social Media Links */
+#contact a {
+    color: #005a8d;
+    text-decoration: none;
+    display: inline-block;
+    margin: 5px;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Responsive Design */
+@media only screen and (max-width: 768px) {
+    main {
+        padding: 10px;
+    }
+
+    #skills li {
+        font-size: 0.9em;
+    }
+}
+
+/* ... existing styles ... */
+
+/* Adding smooth transitions to navbar links */
+.navbar-nav a {
     transition: color 0.3s;
 }
 
-#social-links a:hover .fa {
+/* Hover effect for navbar links */
+.navbar-nav a:hover {
     color: #007bff;
 }
 
-/* Footer styling */
-footer {
-    margin-top: 50px;
+/* Smooth scrolling effect */
+html {
+    scroll-behavior: smooth;
 }
 
-/* Projects styling */
-.card {
-    border: none;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.col-md-4 .card {
+    background: linear-gradient(to bottom, #ffffff 0%, #f0f0f0 100%); /* White to light gray gradient */
 }
 
-.card img {
-    border-radius: 10px 10px 0 0;
-    max-height: 300px;
+/* Hover effect for project cards */
+.col-md-4 .card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease; /* Targeting transform specifically */
 }
 
-.card-title {
-    font-weight: bold;
+.col-md-4 .card:hover .card-body {
+    background-color: #f5f5f5;
 }
 
-.card-text {
-    color: #777;
+.col-md-4 .card:hover .card-title {
+    color: #007bff;
+}
+
+.col-md-4 .card:hover .card-text {
+    color: #555;
+}
+
+#social-links a i {
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+#social-links a:hover i {
+    transform: scale(1.2); /* Pop-out effect */
 }
 

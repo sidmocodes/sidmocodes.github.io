@@ -14,33 +14,25 @@ document.addEventListener('DOMContentLoaded', function() {
 
             // Scroll to the target section with animation
             window.scrollTo({
-                top: targetPosition-10,
-                behavior: 'smooth'
+                top: targetPosition - 10,
+                behavior: 'smooth' // Using smooth scrolling
             });
         });
     });
-});
 
-fetch('/api/blog')
-    .then(response => response.json())
-    .then(blogs => {
-        const blogList = document.getElementById('blog-list');
-        blogs.forEach(blog => {
-            const blogItem = document.createElement('li');
-            blogItem.textContent = blog.title;
-            blogList.appendChild(blogItem);
-        });
+    // ... existing code ...
+
+    window.addEventListener('scroll', function() {
+        const heading = document.getElementById('projects-heading');
+        const top = heading.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+
+        if (top < windowHeight / 2) {
+            heading.classList.add('bounce');
+        } else {
+            heading.classList.remove('bounce');
+        }
     });
-
-window.addEventListener('scroll', function() {
-    const heading = document.getElementById('projects-heading');
-    const top = heading.getBoundingClientRect().top;
-    const windowHeight = window.innerHeight;
-
-    if (top < windowHeight / 2) {
-        heading.classList.add('bounce');
-    } else {
-        heading.classList.remove('bounce');
-    }
 });
 
+// ... existing code ...
