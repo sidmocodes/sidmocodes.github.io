@@ -84,6 +84,7 @@ section {
 
 /* Social Media Links */
 #contact a {
+    background: #000; /* Black background */
     color: #005a8d;
     text-decoration: none;
     display: inline-block;
@@ -189,4 +190,10 @@ html {
     border-radius: 5px;
     cursor: pointer;
 }
+
+.col-md-4 .card:hover .card-title,
+.col-md-4 .card:hover .card-text {
+    color: #add8e6; /* Light blue color */
+}
+
 
