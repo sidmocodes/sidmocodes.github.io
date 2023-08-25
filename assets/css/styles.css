@@ -121,7 +121,8 @@ footer {
 
 /* Hover effect for navbar links */
 .navbar-nav a:hover {
-    color: #007bff;
+    color: #00ff00; /* Green color */
+    text-decoration: underline;
 }
 
 /* Smooth scrolling effect */
