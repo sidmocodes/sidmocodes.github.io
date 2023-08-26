@@ -1,4 +1,33 @@
+/**
+ * function includeHTML(targetSelector, file) {
+  var elmnt, xhttp;
+  
+  // Select the target element by its selector
+  elmnt = document.querySelector(targetSelector);
+  
+  if (elmnt && file) {
+    xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function() {
+      if (this.readyState == 4) {
+        if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+        if (this.status == 404) {elmnt.innerHTML = "Page not found.";}
+      }
+    };
+    xhttp.open("GET", file, true);
+    xhttp.send();
+  }
+}
+**/
+
+
+
 document.addEventListener("DOMContentLoaded", function() {
+
+    
+    // Inner HTML Include call in about
+    includeHTML("#about-content", "assets/content/about.html");
+    
+    
     // Smooth scrolling for anchor links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
@@ -9,6 +38,8 @@ document.addEventListener("DOMContentLoaded", function() {
             }
         });
     });
+
+    
 
     // Project card hover effect
     document.querySelectorAll('.card').forEach(card => {
@@ -54,6 +85,11 @@ document.addEventListener("DOMContentLoaded", function() {
     scrollToTopButton.addEventListener('click', function() {
         window.scrollTo({ top: 0, behavior: 'smooth' });
     });
+
+    // Inner HTML Include call in about
+    //includeHTML("#about div div", "assets/content/about.html");
+
 });
+
 
 // Optional: Add additional JS logic as per your requirements
