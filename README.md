@@ -12,4 +12,4 @@ Well, not just yet! It's a **Work-In-Progress**. But the beauty of WIP is that t
 
 ## Want to Tailor it for Yourself? 🛠️🎨
 
-Awesome! Feel free to make it your own! Just check out our detailed [CONTRIBUTE.md](CONTRIBUTE.md) guidelines to get started. You can fork the project, modify it, and make it resonate with your personal brand. Just remember to give it your own unique spin! 🌀
+Awesome! Feel free to make it your own! Just check out our detailed [CONTRIBUTE.md](https://github.com/sidmocodes/sidmocodes.github.io/blob/main/CONTRIBUTE.md) guidelines to get started. You can fork the project, modify it, and make it resonate with your personal brand. Just remember to give it your own unique spin! 🌀
