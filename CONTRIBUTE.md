@@ -7,10 +7,6 @@ Yes, you read that right! This project is open to all. If you've got ideas for i
 
 If you've got questions or just want to chat about code, technology, or anything else, feel free to reach out on [Linkedin](https://www.linkedin.com/in/ssmohanty)! Let's bring great ideas to life through exceptional code. 💖🛠️
 
----
-
-And that's a wrap! Let's make this portfolio a wonderful space for learning, sharing, and growing! 🌱
-
 Happy Coding! 👩‍💻👨‍💻
 
 ---
