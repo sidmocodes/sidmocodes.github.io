@@ -1,6 +1,6 @@
 # Welcome to SidMoCodes' Personal Portfolio Website! 🌟
 
-Hey there! 👋 Thanks for taking the time to check out my personal portfolio website. This is where I showcase my skills, projects, and everything else that's part of my developer journey. 🚀
+Hey there! 👋 Thanks for taking the time to check out my [personal portfolio website](https://sidmocodes.github.io/). This is where I showcase my skills, projects, and everything else that's part of my developer journey. 🚀
 
 ## What's this all about? 🤔
 
