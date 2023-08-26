@@ -1,16 +1,3 @@
-
-## Wanna Contribute? 🤝
-
-Yes, you read that right! This project is open to all. If you've got ideas for improvements or new features, we'd love to hear them. Just make sure to follow our [contribution guidelines](CONTRIBUTE.md) to get started. 🙌
-
-## Questions? 🤷‍♀️
-
-If you've got questions or just want to chat about code, technology, or anything else, feel free to reach out on [Linkedin](https://www.linkedin.com/in/ssmohanty)! Let's bring great ideas to life through exceptional code. 💖🛠️
-
-Happy Coding! 👩‍💻👨‍💻
-
----
-
 # Contributing Guidelines for SidMoCodes
 
 Thank you for your interest in contributing to SidMoCodes! Your technical expertise and dedication are highly valued. This guide is designed to streamline your contribution process and ensure that your enhancements align with the project's core architecture and standards.
