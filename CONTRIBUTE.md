@@ -5,7 +5,7 @@ Yes, you read that right! This project is open to all. If you've got ideas for i
 
 ## Questions? 🤷‍♀️
 
-If you've got questions or just want to chat about code, technology, or anything else, feel free to reach out! Let's bring great ideas to life through exceptional code. 💖🛠️
+If you've got questions or just want to chat about code, technology, or anything else, feel free to reach out on [Linkedin](https://www.linkedin.com/in/ssmohanty)! Let's bring great ideas to life through exceptional code. 💖🛠️
 
 ---
 
