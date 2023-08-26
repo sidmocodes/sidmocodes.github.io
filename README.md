@@ -13,3 +13,13 @@ Well, not just yet! It's a **Work-In-Progress**. But the beauty of WIP is that t
 ## Want to Tailor it for Yourself? 🛠️🎨
 
 Awesome! Feel free to make it your own! Just check out our detailed [CONTRIBUTE.md](https://github.com/sidmocodes/sidmocodes.github.io/blob/main/CONTRIBUTE.md) guidelines to get started. You can fork the project, modify it, and make it resonate with your personal brand. Just remember to give it your own unique spin! 🌀
+
+## Wanna Contribute? 🤝
+
+Yes, you read that right! This project is open to all. If you've got ideas for improvements or new features, we'd love to hear them. Just make sure to follow our [contribution guidelines](CONTRIBUTE.md) to get started. 🙌
+
+## Questions? 🤷‍♀️
+
+If you've got questions or just want to chat about code, technology, or anything else, feel free to reach out on [Linkedin](https://www.linkedin.com/in/ssmohanty)! Let's bring great ideas to life through exceptional code. 💖🛠️
+
+Happy Coding! 👩‍💻👨‍💻
