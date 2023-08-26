@@ -8,7 +8,7 @@ This isn't just any portfolio—it's a **static, dark-mode-enabled website** bui
 
 ## Is it Complete? 🛠️
 
-Well, not just yet! It's a **Work-In-Progress**. But the beauty of WIP is that there's always room for improvement, new features, and enhancements. That's where you come in! 🌈
+Well, not just yet! It's a **Work-In-Progress**. But the beauty of WIP is that there's always room for improvement, new features, and enhancements. That's where you come in!🛠️
 
 ## Want to Tailor it for Yourself? 🛠️🎨
 
