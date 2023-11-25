@@ -28,6 +28,7 @@ The main project contains Sid Mohanty's personal data. If you intend to adapt th
 2. Clone the SidMoCodes project to your local machine.
 3. Rename the cloned directory to match your domain name.
 4. Customize the contents of `index.html` and associated files as needed.
+5. If you decide to fork the project instead of clone, rename your instance of the repo to `<yourusername>.github.io`
 
 The project utilizes HTML, CSS, JavaScript, and Bootstrap 5.1.0.
 
