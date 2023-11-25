@@ -14,6 +14,8 @@ Well, not just yet! It's a **Work-In-Progress**. But the beauty of WIP is that t
 
 Awesome! Feel free to make it your own! Just check out our detailed [CONTRIBUTE.md](https://github.com/sidmocodes/sidmocodes.github.io/blob/main/CONTRIBUTE.md) guidelines to get started. You can fork the project, modify it, and make it resonate with your personal brand. Just remember to give it your own unique spin! 🌀
 
+If you wish to fork it, make sure that you change the repo name to <your_github_handle>.github.io
+
 ## Wanna Contribute? 🤝
 
 Yes, you read that right! This project is open to all. If you've got ideas for improvements or new features, we'd love to hear them. Just make sure to follow our [contribution guidelines](CONTRIBUTE.md) to get started. 🙌
